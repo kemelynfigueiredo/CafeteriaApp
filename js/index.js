@@ -39,7 +39,7 @@ function loadFoods() {
 
 function loadFormValues(title, foodNome, foodDescricao, foodPreco, foodImagem) {
   const formLabel = document.querySelector('#exampleModalLabel');
-  const foodNomeInput = document.querySelector('#name');
+  const foodNomeInput = document.querySelector('#nome');
   const foodDescricaoInput = document.querySelector('#descricao');
   const foodPrecoInput = document.querySelector('#preco');
   const foodImagemInput = document.querySelector('#imagem');
