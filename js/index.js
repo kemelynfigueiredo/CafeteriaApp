@@ -32,7 +32,7 @@ function loadFoods() {
         </div>
     </div>`;
 
-    const cardDeck = document.querySelector("card-deck");
+    const cardDeck = document.querySelector("#card-deck");
     cardDeck.insertAdjacentHTML("beforeend", foodCard);
   };
 
